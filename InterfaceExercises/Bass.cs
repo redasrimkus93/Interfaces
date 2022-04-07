@@ -8,6 +8,8 @@ namespace InterfaceExercises
 {
     class Bass : IFish, IAnimal
     {
+        public int Age { get; set; }
+
         public void Eat()
         {
             Console.WriteLine("Bass is eating");
